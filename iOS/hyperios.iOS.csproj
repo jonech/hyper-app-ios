@@ -200,13 +200,29 @@
     <Compile Include="ViewControllers\Profile\InterestViewController.designer.cs">
       <DependentUpon>InterestViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddInterestViewController.cs" />
-    <Compile Include="AddInterestViewController.designer.cs">
-      <DependentUpon>AddInterestViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="ViewControllers\Profile\EditInterestViewController.cs" />
     <Compile Include="ViewControllers\Profile\EditInterestViewController.designer.cs">
       <DependentUpon>EditInterestViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\Profile\AddInterestViewController.cs" />
+    <Compile Include="ViewControllers\Profile\AddInterestViewController.designer.cs">
+      <DependentUpon>AddInterestViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\Profile\PopupBaseViewController.cs" />
+    <Compile Include="ViewControllers\Profile\PopupBaseViewController.designer.cs">
+      <DependentUpon>PopupBaseViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\Profile\PopupContainerViewController.cs" />
+    <Compile Include="ViewControllers\Profile\PopupContainerViewController.designer.cs">
+      <DependentUpon>PopupContainerViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecondViewController.cs" />
+    <Compile Include="SecondViewController.designer.cs">
+      <DependentUpon>SecondViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstViewController.cs" />
+    <Compile Include="FirstViewController.designer.cs">
+      <DependentUpon>FirstViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

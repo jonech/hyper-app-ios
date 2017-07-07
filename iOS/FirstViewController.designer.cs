@@ -9,29 +9,24 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace hyperios.iOS.ViewControllers
+namespace hyperios.iOS
 {
-    [Register ("HomeViewController")]
-    partial class HomeViewController
+    [Register ("FirstViewController")]
+    partial class FirstViewController
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIView Header { get; set; }
+        UIKit.UIButton NextButton { get; set; }
 
-        [Outlet]
+        [Action ("NextButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIView PopupBaseView { get; set; }
+        partial void NextButton_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
-            if (Header != null) {
-                Header.Dispose ();
-                Header = null;
-            }
-
-            if (PopupBaseView != null) {
-                PopupBaseView.Dispose ();
-                PopupBaseView = null;
+            if (NextButton != null) {
+                NextButton.Dispose ();
+                NextButton = null;
             }
         }
     }

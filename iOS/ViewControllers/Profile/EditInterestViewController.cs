@@ -19,7 +19,7 @@ namespace hyperios.iOS.ViewControllers.Profile
         partial void AddButton_TouchUpInside(UIButton sender)
         {
             HomeViewController hvc = (HomeViewController)ParentViewController.ParentViewController.ParentViewController;
-            hvc.Test();
+            hvc.ShowPopUp();
         }
     }
 }

@@ -9,20 +9,20 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace hyperios.iOS
+namespace hyperios.iOS.ViewControllers.Profile
 {
-    [Register ("AddInterestViewController")]
-    partial class AddInterestViewController
+    [Register ("PopupContainerViewController")]
+    partial class PopupContainerViewController
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton DoneAddingButton { get; set; }
+        UIKit.UIView PopupContainerView { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (DoneAddingButton != null) {
-                DoneAddingButton.Dispose ();
-                DoneAddingButton = null;
+            if (PopupContainerView != null) {
+                PopupContainerView.Dispose ();
+                PopupContainerView = null;
             }
         }
     }
